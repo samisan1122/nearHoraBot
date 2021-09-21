@@ -2,7 +2,7 @@ process.env.NTBA_FIX_319 = 1;
 const TelegramBot = require('node-telegram-bot-api');
 const {NearTime} = require('./near');
 
-const token =  process.env.TELEGRAM_TOKEN || '1900259112:AAEbfnFynSHGTLjGsjjmo6lsepQbngxDNmQ';
+const token =  process.env.TELEGRAM_TOKEN || '1902658014:AAGo4EPGOQUyu-Fa1VfwjaC7bC-tZIyd9IE';
 
 const bot = new TelegramBot(token, {polling: true});
 
